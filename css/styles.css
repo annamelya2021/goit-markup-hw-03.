@@ -85,7 +85,6 @@ img {
 /* размещение рамки и отступ ??? */
 .header {
   border-bottom: 1px solid #eeeeee;
-  margin-bottom: 20px;
 }
 
 /* задаем флекс и центрирование контейнеру */
@@ -195,7 +194,6 @@ img {
   padding-bottom: 200px;
 
   text-align: center;
-
   background-color: var(--footer-bgcolor);
 }
 /* Заголовок героя */
@@ -293,11 +291,10 @@ img {
   margin-top: -30px;
   margin-left: -30px;
 }
-/* карточки li  workingplace*/
-.workingplace-item {
-  margin-top: 30px;
-  margin-left: 30px;
-  flex-basis: calc(100% / 3 - 30px);
+
+.workingplace-item:not(:last-child) {
+  margin-right: 30px;
+  list-style: none;
 }
 
 /* Наша команда */
@@ -433,6 +430,8 @@ img {
   padding-right: 24px;
   padding-left: 24px;
 
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -464,6 +463,10 @@ img {
 
 .footer-address {
   margin-bottom: 9px;
+}
+.footer-logo {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .footer-item:not(:last-child) {
