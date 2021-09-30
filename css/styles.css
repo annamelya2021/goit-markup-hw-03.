@@ -296,9 +296,18 @@ img {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc(100% / 3 - 30px);
-  /* margin-right: 30px;
-  list-style: none; */
 }
+
+/* .workingplace-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.workingplace-item .item:nth-child(3n) {
+  margin-right: 0;
+} */
 
 /* Наша команда */
 
